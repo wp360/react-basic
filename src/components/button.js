@@ -1,11 +1,14 @@
-import React from 'react';
+import React,{PropTypes} from 'react';
 
-function alertText(){
-    alert('按钮已经点击');
+const Button = (props) => {
+    return (
+        <button type="button" className="btn btn-default" onClick={props.clicked}>{props.name}</button>
+    );
 }
 
-const Button = () => (
-    <button type="button" className="btn btn-default" onClick={alertText}>点击</button>
-);
+Button.PropTypes = {
+    name: PropTypes.string,
+    clicked: PropTypes.func
+}
 
 export default Button;
