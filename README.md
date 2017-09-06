@@ -10,7 +10,7 @@ The environment also uses babel-eslint as a linter core for es-lint, the configu
 ### 1. git克隆代码到react-basic文件夹
 >`git clone https://github.com/veebuv/React-BoilerPlate-Udemy.git react-basic`
 ### 2.打开编辑器 (使用Atom的话，atom .)
->`cd react-basic  code .`
+>`cd react-basic  / react-basic文件夹下 code .`
 ### 3.npm安装依赖
 `npm install`
 ### 4.启动项目
